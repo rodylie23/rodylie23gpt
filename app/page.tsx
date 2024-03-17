@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useChat } from "ai/react";
 import va from "@vercel/analytics";
 import clsx from "clsx";
-import { VercelIcon, GithubIcon, LoadingCircle, SendIcon } from "./icons";
+import { GithubIcon, LoadingCircle, SendIcon } from "./icons";
 import { Bot, User } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -14,7 +14,7 @@ import { toast } from "sonner";
 const examples = [
   "What is the Difference between Inflation and Unemployment?.",
   "Deeply Summarize the play A Doll's House.",
-  "What is the top story on Hacker News right now?",
+  "What are the Top 10 Crypto Stories Today?",
 ];
 
 export default function Chat() {
@@ -24,7 +24,7 @@ export default function Chat() {
   const { messages, input, setInput, handleSubmit, isLoading } = useChat({
     onResponse: (response) => {
       if (response.status === 429) {
-        toast.error("You have reached your request limit for the day.");
+        toast.error("You have Reached Your Request Limit for Today.");
         va.track("Rate unlimited");
         return;
       } else {
@@ -45,14 +45,14 @@ export default function Chat() {
     <main className="flex flex-col items-center justify-between pb-40">
       <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
         <a
-          href="/deploy"
+          href=""
           target="_blank"
           className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
         >
           <VercelIcon />
         </a>
         <a
-          href="/github"
+          href=""
           target="_blank"
           className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
         >
@@ -100,21 +100,21 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <h1 className="text-lg font-semibold text-black">
-              Hi! I Am Gifted ChatGPT!
+              Hi User👋! I Am Gifted ChatGPT!
             </h1>
             <p className="text-gray-500">
-              I Am an{" "}
+              I Am Programmed by{" "}
               <a
-                href="https://giftedgpt.vercel.app"
+                href="https://wa.me/message/NHCZC5DSOEUXB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-              Open-Source
+              Gifted Tech
               </a>{" "}
-              AI chatbot that uses{" "}
+              and I use{" "}
               <a
-                href="https://giftedgpt.vercel.app"
+                href="https://wa.me/message/NHCZC5DSOEUXB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
@@ -123,23 +123,23 @@ export default function Chat() {
               </a>{" "}
               and{" "}
               <a
-                href="https://giftedgpt.vercel.app"
+                href="https://wa.me/message/NHCZC5DSOEUXB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
                 Vercel AI SDK
               </a>{" "}
-              to interact with Human Beings{" "}
+              to interact with Human Beings using{" "}
               <a
-                href="https://giftedgpt.vercel.app"
+                href="https://wa.me/message/NHCZC5DSOEUXB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                and Programmed by
+                Natural Language.
               </a>{" "}
-              Gifted Tech.
+              So, Enjoy Using Me..
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
@@ -224,14 +224,14 @@ export default function Chat() {
           </a>
           .{" "}
           <a
-            href="https://giftedgpt.vercel.app"
+            href="https://wa.me/message/NHCZC5DSOEUXB1"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
             By Gifted Tech
           </a>{" "}
-          or{" "}
+          so{" "}
           <a
             href="https://giftedgpt.vercel.app"
             target="_blank"
