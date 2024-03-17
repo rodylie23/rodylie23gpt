@@ -12,8 +12,8 @@ import Textarea from "react-textarea-autosize";
 import { toast } from "sonner";
 
 const examples = [
-  "Get me the top 5 stories on Hacker News in markdown table format. Use columns like title, link, score, and comments.",
-  "Summarize the comments in the top hacker news story.",
+  "What is the Difference between Inflation and Unemployment?.",
+  "Deeply Summarize the play A Doll's House.",
   "What is the top story on Hacker News right now?",
 ];
 
@@ -25,7 +25,7 @@ export default function Chat() {
     onResponse: (response) => {
       if (response.status === 429) {
         toast.error("You have reached your request limit for the day.");
-        va.track("Rate limited");
+        va.track("Rate unlimited");
         return;
       } else {
         va.track("Chat initiated");
@@ -100,46 +100,46 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <h1 className="text-lg font-semibold text-black">
-              Welcome to ChatHN!
+              Hi! I Am Gifted ChatGPT!
             </h1>
             <p className="text-gray-500">
-              This is an{" "}
+              I Am an{" "}
               <a
-                href="https://github.com/steven-tey/chathn"
+                href="https://giftedgpt.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                open-source
+              Open-Source
               </a>{" "}
               AI chatbot that uses{" "}
               <a
-                href="https://platform.openai.com/docs/guides/gpt/function-calling"
+                href="https://giftedgpt.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                OpenAI Functions
+                OpenAI APi Functions
               </a>{" "}
               and{" "}
               <a
-                href="https://sdk.vercel.ai/docs"
+                href="https://giftedgpt.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
                 Vercel AI SDK
               </a>{" "}
-              to interact with the{" "}
+              to interact with Human Beings{" "}
               <a
-                href="https://github.com/HackerNews/API"
+                href="https://giftedgpt.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Hacker News API
+                and Programmed by
               </a>{" "}
-              with natural language.
+              Gifted Tech.
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
@@ -170,7 +170,7 @@ export default function Chat() {
             required
             rows={1}
             autoFocus
-            placeholder="Send a message"
+            placeholder="Send a Query to Gifted ChatGPT"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => {
@@ -204,18 +204,18 @@ export default function Chat() {
           </button>
         </form>
         <p className="text-center text-xs text-gray-400">
-          Built with{" "}
+          Built With{" "}
           <a
-            href="https://platform.openai.com/docs/guides/gpt/function-calling"
+            href="https://giftedgpt.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI Functions
+            OpenAI APi Functions
           </a>{" "}
           and{" "}
           <a
-            href="https://sdk.vercel.ai/docs"
+            href="https://giftedgpt.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
@@ -224,21 +224,21 @@ export default function Chat() {
           </a>
           .{" "}
           <a
-            href="https://github.com/steven-tey/chathn"
+            href="https://giftedgpt.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            View the repo
+            By Gifted Tech
           </a>{" "}
           or{" "}
           <a
-            href="https://vercel.com/templates/next.js/chathn"
+            href="https://giftedgpt.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            deploy your own
+            Enjoy Using it
           </a>
           .
         </p>
