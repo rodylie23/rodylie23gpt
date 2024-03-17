@@ -238,7 +238,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            Enjoy Using it
+            Enjoy Using me
           </a>
           .
         </p>
