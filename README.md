@@ -1,6 +1,6 @@
-<a href="https://chathn.vercel.app">
-  <img alt="Chat with Hacker News using natural language." src="/app/opengraph-image.png">
-  <h1 align="center">ChatHN</h1>
+<a href="https://giftedgpt.vercel.app">
+  <img alt="Chat with Hacker News using natural language." src="/app/favicon.ico">
+  <h1 align="center">Gifted ChatGPT</h1>
 </a>
 
 <p align="center">
