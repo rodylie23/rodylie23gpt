@@ -7,7 +7,7 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/steven-tey/chathn",
+        destination: "https://github.com/Giftedmaurice/giftedgpt",
         permanent: true,
       },
       {
