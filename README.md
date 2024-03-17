@@ -7,12 +7,6 @@
   Chat With Gifted GPT For Free Without Signup/Login. Built with OpenAI Functions and Vercel AI SDK. 
 </p>
 
-<p align="center">
-  <a href="https://github.com/Giftedmaurice/giftedgpt/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Giftedmaurice/giftedgpt?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
-  </a>
-  <a href="https://github.com/Giftedmaurice/giftedgpt"><img src="https://img.shields.io/github/stars/Giftedmaurice/giftedgpt?style=social" alt="GiftedGPT's GitHub repo"></a>
-</p>
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
