@@ -62,3 +62,4 @@ export const SendIcon = ({ className }: { className?: string }) => {
     </svg>
   );
 };
+
