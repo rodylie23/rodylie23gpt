@@ -100,7 +100,7 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <h1 className="text-lg font-semibold text-black">
-              Hi👋 I Am Gifted ChatGPT!
+              Hi👋 I Am Gifted ChatGPT-4!
             </h1>
             <p className="text-gray-500">
               I Am Programmed by{" "}
@@ -119,7 +119,7 @@ export default function Chat() {
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                OpenAI APi Functions
+                OpenAI GPT-4 APi Functions
               </a>{" "}
               and{" "}
               <a
