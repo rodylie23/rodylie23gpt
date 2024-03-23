@@ -170,7 +170,7 @@ export default function Chat() {
             required
             rows={1}
             autoFocus
-            placeholder="Ask GiftedGPT"
+            placeholder="Ask GiftedGPT-4"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => {
