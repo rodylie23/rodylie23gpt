@@ -170,7 +170,7 @@ export default function Chat() {
             required
             rows={1}
             autoFocus
-            placeholder="Ask GiftedGPT-4"
+            placeholder="Ask Gifted ChatGPT-4"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => {
@@ -211,7 +211,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI APi Functions
+            OpenAI GPT-4 APi Functions
           </a>{" "}
           and{" "}
           <a
