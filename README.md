@@ -1,10 +1,10 @@
-<a href="https://giftedgpt.vercel.app">
+<a href="https://rodylie23.vercel.app">
   <img alt="Chat With GPT For Free Without Signup/Login." src="/app/favicon.ico">
   <h1 align="center">Gifted ChatGPT</h1>
 </a>
 
 <p align="center">
-  Chat With Gifted GPT For Free Without Signup/Login. Built with OpenAI Functions and Vercel AI SDK. 
+  Chat With Rodylie23 GPT For Free Without Signup/Login. Built with OpenAI Functions and Vercel AI SDK. 
 </p>
 
 
@@ -19,17 +19,17 @@
 
 ## Introduction
 
-Gifted ChatGPT is an Open-Source AI Chatbot that uses [OpenAI APi Functions](https://platform.openai.com/docs/guides/gpt/function-calling) and the [Vercel AI SDK](https://sdk.vercel.ai/docs) to interact with Human Beings Using Natural Language.
+Rodylie23 ChatGPT is an Open-Source AI Chatbot that uses [OpenAI APi Functions](https://platform.openai.com/docs/guides/gpt/function-calling) and the [Vercel AI SDK](https://sdk.vercel.ai/docs) to interact with Human Beings Using Natural Language.
 
 ## Setting Up Locally
 
-To set up Gifted ChatGPT locally, you'll need to clone the repository and set up the following environment variables:
+To set up Rodylie23 ChatGPT locally, you'll need to clone the repository and set up the following environment variables:
 
 - `OPENAI_API_KEY` – your OpenAI API key (you can get one [here](https://platform.openai.com/account/api-keys))
 
 ## Tech Stack
 
-Gifted ChatGPT is built on the following stack:
+Rodylie23 ChatGPT is built on the following stack:
 
 - [Next.js](https://nextjs.org/) – Framework
 - [OpenAI APi Functions](https://platform.openai.com/docs/guides/gpt/function-calling) - AI Completions
@@ -46,7 +46,7 @@ Here's how you can contribute:
 
 ## Owner
 
-- Gifted Tech ([WhatsApp Me](https://wa.me/message/NHCZC5DSOEUXB1))
+- Rodylie23 md([WhatsApp Me](https://wa.me/message/NHCZC5DSOEUXB1))
 
 ## License
 
